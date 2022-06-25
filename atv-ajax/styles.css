@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+h2{
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 3%;
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+    margin: 0 auto;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+} 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    margin-top: 3%;
+}
+
+  
+button{
+    width: 30%;
+    color: blueviolet;
+    text-decoration: none;
+    border: none;
+}

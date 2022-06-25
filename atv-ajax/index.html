@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body> 
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Requisisoes AJAX</title>
+    </head>
+    <form class="formulario" method="post">
+      <h1>Requisisões AJAX</h1>
+      <div class="field">
+        <h2>Área de Livros</h2>
+        <span>Listar Livros</span>
+        <button onclick="livrosLista()">Listar</button>
+        <span>Cadastrar um livro</span>
+        <button onclick="livrosCadasto()">Cadastrar</button>
+        <span>Deletar um livro</span>
+        <button onclick="livrosDeletar()">Deletar</button>
+        <span>Atualizar um livro</span>
+        <button onclick="livrosAtualizar()">Atualizar</button>
+        <span>Alugar um livro</span>
+        <button onclick="livrosAlugar()">Alugar</button>
+        <span>Vender um livro</span>
+        <button onclick="livrosVender()">Vender</button>
+      </div>
+
+      <div class="field">
+        <h2>Área dos Clientes</h2>
+        <span>Lista de clientes</span>
+        <button onclick="clienteLista()">Listar</button>
+        <span>Cadastrar um cliente</span>
+        <button onclick="clienteCadastro()">Cadastrar</button>
+        <span>Atualizar a lista de clientes</span>
+        <button onclick="clienteAtualizar()">Atualizar</button>
+        <span>Deletar um cliente</span>
+        <button onclick="clienteDeletar()">Deletar</button>
+      </div>
+    </form>
+
+    <script src="./livros.js"></script>
+    <script src="./cliente.js"></script>
+
+</body>
+
+</html>
